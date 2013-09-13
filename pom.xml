@@ -11,7 +11,11 @@
   <packaging>pom</packaging>
   <name>SwitchYard: Tools Parent</name>
   <description>Parent project for SwitchYard tooling</description>
-
+    <scm>
+        <connection>scm:git:ssh//github.com/jboss-switchyard/tools.git</connection>
+        <developerConnection>scm:git:ssh://github.com/jboss-switchyard/tools.git</developerConnection>
+        <url>http://github.com/jboss-switchyard/tools</url>
+    </scm>
   <modules>
     <module>eclipse</module>
   </modules>
